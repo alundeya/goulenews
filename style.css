@@ -5,8 +5,7 @@
             font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft Yahei", sans-serif;
         }
 
-        body {
-            background-color: #ffffff;
+        body {            
             color: #333;
         }
          .article-wrap {
@@ -40,3 +39,25 @@
             border-radius: 4px;
             margin: 10px 0;
         }
+a {
+    color: #87CEFA;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: grey;
+}
+
+a.black-link {
+    color: #000000;
+}
+a.black-link:link,
+a.black-link:visited,
+a.black-link:hover,
+a.black-link:active {
+    color: #4070A0;
+}
